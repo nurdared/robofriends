@@ -10,6 +10,7 @@
     box-shadow: 3px 4px 14px -1px rgba(0,0,0,0.75);
     &:hover {
         animation: heartbeat 1.5s ease-in-out infinite both;
+        cursor: pointer;
     }
 
     &__name {

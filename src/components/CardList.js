@@ -4,6 +4,7 @@ import Card from './Card';
 const CardList = ({ robots }) => {
     return (
         <Fragment>
+            <section className="container">
             {
                 robots.map((robot) =>
                     (
@@ -16,6 +17,7 @@ const CardList = ({ robots }) => {
                     )
                 )
             }
+            </section>
         </Fragment>
     );
 }
